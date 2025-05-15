@@ -5,11 +5,12 @@ col1, col2, col3 = st.columns([1, 2, 1])
 
 with col2:
     st.markdown(
-        "<h1 style='text-align: center;'>🏠 Home 🏠</h1>", unsafe_allow_html=True
+        "<h1 style='text-align: center;'>Batu Itam Perdana POS</h1>",
+        unsafe_allow_html=True,
     )
 
     st.markdown(
-        "<p style='text-align: center;'>This simple app is a project about <strong>insurance charges prediction</strong> using machine learning mode, you can see the dataset used in this project on <a href='https://www.kaggle.com/teertha/ushealthinsurancedataset'>Kaggle</a>.</p>",
+        "<p style='text-align: center;'>This simple app is a Point of Sale (POS) system for Batu Itam Perdana, a small shop in Indonesia. The app is designed to help the shop manage sales, products, and customers efficiently.</p>",
         unsafe_allow_html=True,
     )
 
